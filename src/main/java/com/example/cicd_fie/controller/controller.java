@@ -12,5 +12,12 @@ public class controller {
 		return "hi Jeeva";
 		
 	}
+	
+	@GetMapping("/getAll")
+	
+	public String getAll()
+	{
+		return "the old concept is always powerfull";
+	}
 
 }
